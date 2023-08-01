@@ -1,6 +1,22 @@
 {
     "Boso": [
         {
+            "features": [
+                {
+                    "label": "Manufacturer",
+                    "labelDescription": "By boso (BOSCH+SOHN)"
+                },
+                {
+                    "label": "Details",
+                    "labelDescription": "Cuffs for adults (can be washed off, latex-free)- Size M (13 x 62 | 20 – 31) - Size L (16 x 68 | 28 – 38 ) - Cuffs, optional: S (10 x 38 | 15 – 22), XL (17 x 76 | 36 – 50"
+                },
+                {
+                    "label": "Inclusions",
+                    "labelDescription": "- boso TM-2450 - profil-manager XD - Important notes - Battery charge"
+                }
+            ]
+        },
+        {
             "productNames": "boso TM-2450"
         },
         {

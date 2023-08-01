@@ -8,26 +8,19 @@ import logo from "./assets/phendex_logo.png"
 import Image from 'next/image'
 import products from '@/app/products.json'
 
-const CAROUSEL_POSITION = {
-  LEFT: 'left',
-  RIGHT: 'right'
-}
-
 const navigation = [
   { name: 'Overview', href: '#', current: true },
   { name: 'Products', href: '#', current: false },
   { name: 'Partners', href: '#', current: false },
   { name: 'Contact Us', href: '#', current: false }
 ]
-const userNavigation = [
-  { name: 'Your Profile', href: '#' },
-  { name: 'Settings', href: '#' },
-  { name: 'Sign out', href: '#' },
-]
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
+
+let productDetails = products.Boso.flatMap((features) => features!.features)!;
+productDetails = productDetails.filter((filter) => filter !== undefined);
 
 export default function Example() {
   return (
@@ -60,7 +53,7 @@ export default function Example() {
                           className={classNames(
                             item.current
                               ? 'bg-green-900 text-white'
-                              : 'text-green-700 hover:bg-green-900 hover:text-white',
+                              : 'text-green-700 hover:bg-green-900/40 hover:text-white',
                             'rounded-md px-3 py-2 text-sm font-medium'
                           )}
                           aria-current={item.current ? 'page' : undefined}
@@ -77,7 +70,7 @@ export default function Example() {
                   </div>
                   <div className="-mr-2 flex md:hidden">
                     {/* Mobile menu button */}
-                    <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md bg-lime-800 p-2 text-white hover:bg-lime-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-lime-200">
+                    <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md bg-green-800 p-2 text-white hover:bg-green-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-green-200">
                       <span className="absolute -inset-0.5" />
                       <span className="sr-only">Open main menu</span>
                       {open ? (
@@ -115,11 +108,12 @@ export default function Example() {
         <main>
           <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
             <div className='row-span-1'>
-              <ProductInfoComponent 
-              carouselPosition={CAROUSEL_POSITION.LEFT} 
-              prodName={products.Boso.flatMap((prodName) => prodName.productNames) as unknown as string}
-              prodDesc={products.Boso.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-              />
+                <ProductInfoComponent
+                  isCarouselReversed={false}
+                  prodName={products.Boso.flatMap((prodName) => prodName.productNames) as unknown as string}
+                  prodDesc={products.Boso.flatMap((prodDesc) => prodDesc.description) as unknown as string}
+                  productDetails={productDetails.map((productDetail) => productDetail)}
+                />
             </div>
           </div>
         </main>
