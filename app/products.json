@@ -25,11 +25,101 @@
         {
             "productImages": [
                 {
-                    "image_1": "./assets/boso_1.jpg",
-                    "image_2": "./assets/boso_2.jpg",
-                    "image_3": "./assets/boso_3.jpg",
-                    "image_4": "./assets/boso_4.jpg",
-                    "image_5": "./assets/boso_5.jpg"
+                    "image": "/boso_1.jpg"
+                },
+                {
+                    "image": "/boso_2.jpg"
+                },
+                {
+                    "image": "/boso_3.jpg"
+                },
+                {
+                    "image": "/boso_4.jpg"
+                },
+                {
+                    "image": "/boso_5.jpg"
+                }
+            ]
+        }
+    ],
+    
+    "Kenz": [
+        {
+            "features": [
+                {
+                    "label": "Manufacturer",
+                    "labelDescription": "Suzuken Company Limited"
+                },
+                {
+                    "label": "Details",
+                    "labelDescription": "Compact plus tough body for bathing - Disposable Electrode Cardyrode-E/W(waterpoof/non waterpoof) - Flexibility in patient cable selection - Double lock mechanism plus confirmation"
+                },
+                {
+                    "label": "Inclusions",
+                    "labelDescription": "Cardy 304 - Cardy Analyzer 05 Type-S (Holter Analysis Software)"
+                }
+            ]
+        },
+        {
+            "productNames": "Kenz - Cardy 304"
+        },
+        {
+            "description": "Compact Water Resistant Holter Recorder"
+        },
+        {
+            "productImages": [
+                {
+                    "image": "/kenz_7.jpg"
+                },
+                {
+                    "image": "/kenz_5.jpg"
+                }
+            ]
+        }
+    ],
+
+    "Skintact": [
+        {
+            "features": [
+                {
+                    "label": "Manufacturer",
+                    "labelDescription": "Leonhard Lang GmbH"
+                },
+                {
+                    "label": "Details",
+                    "labelDescription": "Excellent quality ECG recordings are dependent on three main factors: good skin preparation, superior quality electrodes, and a continuous unbroken electrical pathway from the skin to the ECG machine"
+                },
+                {
+                    "label": "Inclusions",
+                    "labelDescription": "Download brochure for more information"
+                }
+            ]
+        },
+        {
+            "productNames": "Skintact"
+        },
+        {
+            "description": "ECG Electrodes"
+        },
+        {
+            "productImages": [
+                {
+                    "image": "/skintact_2.jpg"
+                },
+                {
+                    "image": "/skintact_1.jpg"
+                },
+                {
+                    "image": "/skintact_3.jpg"
+                },
+                {
+                    "image": "/skintact_4.jpg"
+                },
+                {
+                    "image": "/skintact_5.jpg"
+                },
+                {
+                    "image": "/skintact_6.jpg"
                 }
             ]
         }

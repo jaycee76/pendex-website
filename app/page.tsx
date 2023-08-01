@@ -7,6 +7,7 @@ import ProductInfoComponent from './components/ProductInfo'
 import logo from "./assets/phendex_logo.png"
 import Image from 'next/image'
 import products from '@/app/products.json'
+import HeroComponent from './components/HeroComponent'
 
 const navigation = [
   { name: 'Overview', href: '#', current: true },
@@ -19,8 +20,23 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
-let productDetails = products.Boso.flatMap((features) => features!.features)!;
-productDetails = productDetails.filter((filter) => filter !== undefined);
+// BOSO PRODUCTS
+let bosoProductDetails = products.Boso.flatMap((features) => features!.features)!;
+bosoProductDetails = bosoProductDetails.filter((filter) => filter !== undefined);
+let bosoProductImageLink = products.Boso.flatMap((images) => images.productImages);
+bosoProductImageLink = bosoProductImageLink.filter((filter) => filter !== undefined);
+
+// KENZ PRODUCTS
+let kenzProductDetails = products.Kenz.flatMap((features) => features!.features)!;
+kenzProductDetails = kenzProductDetails.filter((filter) => filter !== undefined);
+let kenzProductImageLink = products.Kenz.flatMap((images) => images.productImages);
+kenzProductImageLink = kenzProductImageLink.filter((filter) => filter !== undefined);
+
+// SKINTACT PRODUCTS
+let skinTactProductDetails = products.Skintact.flatMap((features) => features!.features)!;
+skinTactProductDetails = skinTactProductDetails.filter((filter) => filter !== undefined);
+let skinTactProductImageLink = products.Skintact.flatMap((images) => images.productImages);
+skinTactProductImageLink = skinTactProductImageLink.filter((filter) => filter !== undefined);
 
 export default function Example() {
   return (
@@ -37,7 +53,7 @@ export default function Example() {
         <Disclosure as="nav" className="bg-white shadow">
           {({ open }) => (
             <>
-              <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-7xl px-4 sm:px-6">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex justify-center align-center mt-1">
@@ -45,7 +61,7 @@ export default function Example() {
                     </div>
                   </div>
                   <div className="hidden md:block">
-                    <div className="ml-10 flex items-baseline space-x-4">
+                    <div className="mr-12 pr-12 flex items-baseline space-x-4">
                       {navigation.map((item) => (
                         <a
                           key={item.name}
@@ -106,14 +122,34 @@ export default function Example() {
         </Disclosure>
 
         <main>
-          <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl pt-1 sm:px-6 lg:px-8">
             <div className='row-span-1'>
-                <ProductInfoComponent
-                  isCarouselReversed={false}
-                  prodName={products.Boso.flatMap((prodName) => prodName.productNames) as unknown as string}
-                  prodDesc={products.Boso.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-                  productDetails={productDetails.map((productDetail) => productDetail)}
-                />
+                <HeroComponent />
+            </div>
+          </div>
+          <div className="mx-auto max-w-7xl pt-1 sm:px-6 lg:px-8">
+            <div className='row-span-1'>
+              <ProductInfoComponent
+                isCarouselReversed={false}
+                prodName={products.Boso.flatMap((prodName) => prodName.productNames) as unknown as string}
+                prodDesc={products.Boso.flatMap((prodDesc) => prodDesc.description) as unknown as string}
+                productDetails={bosoProductDetails.map((productDetail) => productDetail)}
+                productImageLink={bosoProductImageLink.map((productImg) => productImg)}
+              />
+              <ProductInfoComponent
+                isCarouselReversed={true}
+                prodName={products.Kenz.flatMap((prodName) => prodName.productNames) as unknown as string}
+                prodDesc={products.Kenz.flatMap((prodDesc) => prodDesc.description) as unknown as string}
+                productDetails={kenzProductDetails.map((productDetail) => productDetail)}
+                productImageLink={kenzProductImageLink.map((productImg) => productImg)}
+              />
+              <ProductInfoComponent
+                isCarouselReversed={false}
+                prodName={products.Skintact.flatMap((prodName) => prodName.productNames) as unknown as string}
+                prodDesc={products.Skintact.flatMap((prodDesc) => prodDesc.description) as unknown as string}
+                productDetails={skinTactProductDetails.map((productDetail) => productDetail)}
+                productImageLink={skinTactProductImageLink.map((productImg) => productImg)}
+              />
             </div>
           </div>
         </main>

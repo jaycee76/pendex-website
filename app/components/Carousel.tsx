@@ -1,13 +1,7 @@
 import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
-import product1 from "../assets/boso_1.jpg"
-import product2 from "../assets/boso_2.jpg"
-import product3 from "../assets/boso_3.jpg"
-import product4 from "../assets/boso_4.jpg"
-import product5 from "../assets/boso_5.jpg"
 
-
-export default function CarouselComponent(props: any) {
+export default function CarouselComponent(props: { productImage: any }) {
     return (
         <Carousel
             loop={true}
@@ -27,31 +21,17 @@ export default function CarouselComponent(props: any) {
                 </div>
             )}
         >
-            <Image
-                src={product1}
-                alt="image 1"
-                className="object-contain"
-            />
-            <Image
-                src={product2}
-                alt="image 2"
-                className="object-contain"
-            />            
-            <Image
-                src={product3}
-                alt="image 3"
-                className="object-contain"
-            />           
-             <Image
-                src={product4}
-                alt="image 4"
-                className="object-contain"
-            />         
-            <Image
-                src={product5}
-                alt="image 5"
-                className="object-contain"
-            />
+            {props.productImage.map((productImg: any) => (
+                <Image
+                    src={productImg.image}
+                    key={productImg.image}
+                    alt="image"
+                    className="object-cover h-full w-full"
+                    width={600}
+                    height={300}
+                />
+            ))}
+
         </Carousel>
     );
 }
