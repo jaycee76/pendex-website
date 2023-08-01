@@ -1,0 +1,21 @@
+{
+    "Boso": [
+        {
+            "productNames": "boso TM-2450"
+        },
+        {
+            "description": "24h Blood Pressure Monitor: Smaller - Lighter - Quieter"
+        },
+        {
+            "productImages": [
+                {
+                    "image_1": "./assets/boso_1.jpg",
+                    "image_2": "./assets/boso_2.jpg",
+                    "image_3": "./assets/boso_3.jpg",
+                    "image_4": "./assets/boso_4.jpg",
+                    "image_5": "./assets/boso_5.jpg"
+                }
+            ]
+        }
+    ]
+}
