@@ -8,12 +8,13 @@ import logo from "./assets/phendex_logo.png"
 import Image from 'next/image'
 import products from '@/app/products.json'
 import HeroComponent from './components/HeroComponent'
+import { Fade } from "react-awesome-reveal";
+import ContactComponent from './components/ContactComponent'
 
 const navigation = [
-  { name: 'Overview', href: '#', current: true },
-  { name: 'Products', href: '#', current: false },
-  { name: 'Partners', href: '#', current: false },
-  { name: 'Contact Us', href: '#', current: false }
+  { name: 'Overview', href: '#overview', current: true },
+  { name: 'Products', href: '#products', current: false },
+  { name: 'Contact Us', href: '#contact', current: false }
 ]
 
 function classNames(...classes: string[]) {
@@ -25,6 +26,12 @@ let bosoProductDetails = products.Boso.flatMap((features) => features!.features)
 bosoProductDetails = bosoProductDetails.filter((filter) => filter !== undefined);
 let bosoProductImageLink = products.Boso.flatMap((images) => images.productImages);
 bosoProductImageLink = bosoProductImageLink.filter((filter) => filter !== undefined);
+
+// BOSO NEW PRODUCT
+let newBosoProductDetails = products.BosoNew.flatMap((features) => features!.features)!;
+newBosoProductDetails = newBosoProductDetails.filter((filter) => filter !== undefined);
+let newBosoProductImageLink = products.BosoNew.flatMap((images) => images.productImages);
+newBosoProductImageLink = newBosoProductImageLink.filter((filter) => filter !== undefined);
 
 // KENZ PRODUCTS
 let kenzProductDetails = products.Kenz.flatMap((features) => features!.features)!;
@@ -50,14 +57,14 @@ export default function Example() {
         ```
       */}
       <div className="min-h-full">
-        <Disclosure as="nav" className="bg-white shadow">
+        <Disclosure as="nav" className="bg-white shadow z-50">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex justify-center align-center mt-1">
-                      <Image src={logo} alt='Phendex Logo' />
+                      <Image src={logo} alt='Phendex Logo' priority />
                     </div>
                   </div>
                   <div className="hidden md:block">
@@ -122,35 +129,69 @@ export default function Example() {
         </Disclosure>
 
         <main>
-          <div className="mx-auto max-w-7xl pt-1 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl pt-1 sm:px-6 lg:px-8" id='overview'>
             <div className='row-span-1'>
-                <HeroComponent />
+              <HeroComponent />
             </div>
           </div>
-          <div className="mx-auto max-w-7xl pt-1 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl pt-1 sm:px-6 lg:px-8" id='products'>
             <div className='row-span-1'>
-              <ProductInfoComponent
-                isCarouselReversed={false}
-                prodName={products.Boso.flatMap((prodName) => prodName.productNames) as unknown as string}
-                prodDesc={products.Boso.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-                productDetails={bosoProductDetails.map((productDetail) => productDetail)}
-                productImageLink={bosoProductImageLink.map((productImg) => productImg)}
-              />
-              <ProductInfoComponent
-                isCarouselReversed={true}
-                prodName={products.Kenz.flatMap((prodName) => prodName.productNames) as unknown as string}
-                prodDesc={products.Kenz.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-                productDetails={kenzProductDetails.map((productDetail) => productDetail)}
-                productImageLink={kenzProductImageLink.map((productImg) => productImg)}
-              />
-              <ProductInfoComponent
-                isCarouselReversed={false}
-                prodName={products.Skintact.flatMap((prodName) => prodName.productNames) as unknown as string}
-                prodDesc={products.Skintact.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-                productDetails={skinTactProductDetails.map((productDetail) => productDetail)}
-                productImageLink={skinTactProductImageLink.map((productImg) => productImg)}
-              />
+              <Fade
+                direction='right'
+                triggerOnce={true}
+                delay={400}
+              >
+                <ProductInfoComponent
+                  isCarouselReversed={false}
+                  prodName={products.Boso.flatMap((prodName) => prodName.productNames) as unknown as string}
+                  prodDesc={products.Boso.flatMap((prodDesc) => prodDesc.description) as unknown as string}
+                  productDetails={bosoProductDetails.map((productDetail) => productDetail)}
+                  productImageLink={bosoProductImageLink.map((productImg) => productImg)}
+                />
+              </Fade>
+              <Fade
+                direction='left'
+                triggerOnce={true}
+                delay={400}
+              >
+                <ProductInfoComponent
+                  isCarouselReversed={true}
+                  prodName={products.BosoNew.flatMap((prodName) => prodName.productNames) as unknown as string}
+                  prodDesc={products.BosoNew.flatMap((prodDesc) => prodDesc.description) as unknown as string}
+                  productDetails={newBosoProductDetails.map((productDetail) => productDetail)}
+                  productImageLink={newBosoProductImageLink.map((productImg) => productImg)}
+                />
+              </Fade>
+              <Fade
+                direction='right'
+                triggerOnce={true}
+                delay={400}
+              >
+                <ProductInfoComponent
+                  isCarouselReversed={false}
+                  prodName={products.Kenz.flatMap((prodName) => prodName.productNames) as unknown as string}
+                  prodDesc={products.Kenz.flatMap((prodDesc) => prodDesc.description) as unknown as string}
+                  productDetails={kenzProductDetails.map((productDetail) => productDetail)}
+                  productImageLink={kenzProductImageLink.map((productImg) => productImg)}
+                />
+              </Fade>
+              <Fade
+                direction='left'
+                triggerOnce={true}
+                delay={400}
+              >
+                <ProductInfoComponent
+                  isCarouselReversed={true}
+                  prodName={products.Skintact.flatMap((prodName) => prodName.productNames) as unknown as string}
+                  prodDesc={products.Skintact.flatMap((prodDesc) => prodDesc.description) as unknown as string}
+                  productDetails={skinTactProductDetails.map((productDetail) => productDetail)}
+                  productImageLink={skinTactProductImageLink.map((productImg) => productImg)}
+                />
+              </Fade>
             </div>
+          </div>
+          <div id='contact'>
+            <ContactComponent />
           </div>
         </main>
       </div>

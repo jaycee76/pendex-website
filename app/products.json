@@ -42,6 +42,41 @@
             ]
         }
     ],
+
+    "BosoNew": [
+        {
+            "features": [
+                {
+                    "label": "Manufacturer",
+                    "labelDescription": "By boso (BOSCH+SOHN)"
+                },
+                {
+                    "label": "Details",
+                    "labelDescription": "The measurement of the ankle-brachial index with the boso ABI-system takes 1 minute and also discovers asymptomatic patients. Reliable and simple – so it can easily be delegated to employees."
+                },
+                {
+                    "label": "Inclusions",
+                    "labelDescription": "Send us an email for a brochure for more information."
+                }
+            ]
+        },
+        {
+            "productNames": "boso Arteriosclerosis PAOD-Screening"
+        },
+        {
+            "description": "The ankle brachial index is the best predictor of heart attack, stroke and mortality."
+        },
+        {
+            "productImages": [
+                {
+                    "image": "/boso_new_1.jpg"
+                },
+                {
+                    "image": "/boso_new_2.jpg"
+                }
+            ]
+        }
+    ],
     
     "Kenz": [
         {
@@ -91,7 +126,7 @@
                 },
                 {
                     "label": "Inclusions",
-                    "labelDescription": "Download brochure for more information"
+                    "labelDescription": "Send us an email for a brochure for more information"
                 }
             ]
         },
