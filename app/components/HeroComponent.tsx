@@ -76,7 +76,7 @@ export default function HeroComponent() {
                         >
                             <div className="px-4 py-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
                                 <span className="font-semibold text-gray-400 uppercase">TRUSTED BY</span>
-                                <div className="flex flex-wrap justify-center items-center mt-8 ml-12 text-gray-500 sm:justify-between">
+                                <div className="flex items-center justify-around mt-8 text-gray-500">
                                     <Image
                                         src={mdhLogo}
                                         alt="MDH logo"
@@ -92,7 +92,7 @@ export default function HeroComponent() {
                                     <Image
                                         src={healthwayLogo}
                                         alt="Healthway logo"
-                                        width={200}
+                                        width={150}
                                         height={100}
                                     />
                                 </div>
