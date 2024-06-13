@@ -42,28 +42,51 @@ export default function HeroComponent() {
                         </Fade>
                         <Fade
                             direction="up"
-                            delay={1300}
+                            delay={1000}
                             triggerOnce={true}
                         >
                             <div className="px-4 py-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-                                <span className="font-semibold text-gray-400 uppercase">TRUSTED BY</span>
-                                <div className="flex sm:flex-row flex-col items-center justify-around mt-8 text-gray-500">
+                                <span className="font-semibold text-gray-400 uppercase">GLOBAL PARTNERS</span>
+                                <div className="flex sm:flex-row flex-col items-center justify-evenly text-gray-500">
+                                    <div className="sm:mb-0 mb-4">
+                                        <Image
+                                            src={bosoLogo}
+                                            alt="boso logo"
+                                            width={200}
+                                            height={100}
+                                        />
+                                    </div>
                                     <div className="sm:mb-0 mb-12">
                                         <Image
-                                            src={mdhLogo}
-                                            alt="MDH logo"
+                                            src={leonhardlogo}
+                                            alt="leonhard logo"
                                             width={150}
                                             height={50}
                                         />
                                     </div>
-                                    <div className="sm:mb-0 mb-12">
                                     <Image
-                                        src={stLukesLogo}
-                                        alt="St. Lukes logo"
-                                        width={80}
+                                        src={kenzLogo}
+                                        alt="kenz logo"
+                                        width={200}
                                         height={100}
                                     />
-                                    </div>
+                                </div>
+                            </div>
+                        </Fade>
+                        <Fade
+                            direction="up"
+                            delay={700}
+                            triggerOnce={true}
+                        >
+                            <div className="px-4 py-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+                                <span className="font-semibold text-gray-400 uppercase">TRUSTED BY</span>
+                                <div className="flex items-center justify-evenly mt-8 text-gray-500">
+                                    <Image
+                                        src={mdhLogo}
+                                        alt="MDH logo"
+                                        width={150}
+                                        height={50}
+                                    />
                                     <Image
                                         src={healthwayLogo}
                                         alt="Healthway logo"
