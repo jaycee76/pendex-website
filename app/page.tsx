@@ -48,14 +48,6 @@ skinTactProductImageLink = skinTactProductImageLink.filter((filter) => filter !=
 export default function Example() {
   return (
     <>
-      {/*
-        This example requires updating your template:
-
-        ```
-        <html class="h-full bg-gray-100">
-        <body class="h-full">
-        ```
-      */}
       <div className="min-h-full">
         <Disclosure as="nav" className="bg-white shadow z-50">
           {({ open }) => (
@@ -142,7 +134,6 @@ export default function Example() {
                 delay={400}
               >
                 <ProductInfoComponent
-                  isCarouselReversed={false}
                   prodName={products.Boso.flatMap((prodName) => prodName.productNames) as unknown as string}
                   prodDesc={products.Boso.flatMap((prodDesc) => prodDesc.description) as unknown as string}
                   productDetails={bosoProductDetails.map((productDetail) => productDetail)}
@@ -155,7 +146,6 @@ export default function Example() {
                 delay={400}
               >
                 <ProductInfoComponent
-                  isCarouselReversed={true}
                   prodName={products.BosoNew.flatMap((prodName) => prodName.productNames) as unknown as string}
                   prodDesc={products.BosoNew.flatMap((prodDesc) => prodDesc.description) as unknown as string}
                   productDetails={newBosoProductDetails.map((productDetail) => productDetail)}
@@ -168,7 +158,6 @@ export default function Example() {
                 delay={400}
               >
                 <ProductInfoComponent
-                  isCarouselReversed={false}
                   prodName={products.Kenz.flatMap((prodName) => prodName.productNames) as unknown as string}
                   prodDesc={products.Kenz.flatMap((prodDesc) => prodDesc.description) as unknown as string}
                   productDetails={kenzProductDetails.map((productDetail) => productDetail)}
@@ -181,7 +170,6 @@ export default function Example() {
                 delay={400}
               >
                 <ProductInfoComponent
-                  isCarouselReversed={true}
                   prodName={products.Skintact.flatMap((prodName) => prodName.productNames) as unknown as string}
                   prodDesc={products.Skintact.flatMap((prodDesc) => prodDesc.description) as unknown as string}
                   productDetails={skinTactProductDetails.map((productDetail) => productDetail)}

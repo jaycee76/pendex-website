@@ -26,7 +26,7 @@ export default function CarouselComponent(props: { productImage: any }) {
                     src={productImg.image}
                     key={productImg.image}
                     alt="image"
-                    className="object-cover h-full w-full"
+                    className="aspect-video h-full w-full"
                     width={600}
                     height={300}
                 />

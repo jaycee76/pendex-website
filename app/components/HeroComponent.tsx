@@ -12,7 +12,7 @@ export default function HeroComponent() {
         <>
             <div className="z-0">
                 <section className="bg-white">
-                    <div className="py-32 px-4 mx-auto max-w-screen-xl text-center lg:px-12">
+                    <div className="pt-32 px-4 mx-auto max-w-screen-xl text-center lg:px-12">
                         <Slide
                             direction="down"
                             triggerOnce={true}
@@ -42,53 +42,28 @@ export default function HeroComponent() {
                         </Fade>
                         <Fade
                             direction="up"
-                            delay={1000}
-                            triggerOnce={true}
-                        >
-                            <div className="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-                                <span className="font-semibold text-gray-400 uppercase">GLOBAL PARTNERS</span>
-                                <div className="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
-                                    <Image
-                                        src={bosoLogo}
-                                        alt="boso logo"
-                                        width={200}
-                                        height={100}
-                                    />
-                                    <Image
-                                        src={leonhardlogo}
-                                        alt="leonhard logo"
-                                        width={150}
-                                        height={50}
-                                    />
-                                    <Image
-                                        src={kenzLogo}
-                                        alt="kenz logo"
-                                        width={200}
-                                        height={100}
-                                    />
-                                </div>
-                            </div>
-                        </Fade>
-                        <Fade
-                            direction="up"
                             delay={1300}
                             triggerOnce={true}
                         >
                             <div className="px-4 py-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
                                 <span className="font-semibold text-gray-400 uppercase">TRUSTED BY</span>
-                                <div className="flex items-center justify-around mt-8 text-gray-500">
-                                    <Image
-                                        src={mdhLogo}
-                                        alt="MDH logo"
-                                        width={150}
-                                        height={50}
-                                    />
+                                <div className="flex sm:flex-row flex-col items-center justify-around mt-8 text-gray-500">
+                                    <div className="sm:mb-0 mb-12">
+                                        <Image
+                                            src={mdhLogo}
+                                            alt="MDH logo"
+                                            width={150}
+                                            height={50}
+                                        />
+                                    </div>
+                                    <div className="sm:mb-0 mb-12">
                                     <Image
                                         src={stLukesLogo}
                                         alt="St. Lukes logo"
                                         width={80}
                                         height={100}
                                     />
+                                    </div>
                                     <Image
                                         src={healthwayLogo}
                                         alt="Healthway logo"
