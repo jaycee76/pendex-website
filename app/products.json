@@ -42,7 +42,6 @@
             ]
         }
     ],
-
     "BosoNew": [
         {
             "features": [
@@ -77,7 +76,6 @@
             ]
         }
     ],
-    
     "Kenz": [
         {
             "features": [
@@ -112,7 +110,6 @@
             ]
         }
     ],
-
     "Skintact": [
         {
             "features": [
@@ -131,7 +128,7 @@
             ]
         },
         {
-            "productNames": "Skintact"
+            "productNames": "Skintact RT34"
         },
         {
             "description": "ECG Electrodes"
@@ -139,16 +136,16 @@
         {
             "productImages": [
                 {
-                    "image": "/skintact_2.jpg"
-                },
-                {
                     "image": "/skintact_1.jpg"
                 },
                 {
                     "image": "/skintact_3.jpg"
                 },
                 {
-                    "image": "/skintact_4.jpg"
+                    "image": "/skintact_8.jpg"
+                },
+                {
+                    "image": "/skintact_2.jpg"
                 },
                 {
                     "image": "/skintact_5.jpg"
