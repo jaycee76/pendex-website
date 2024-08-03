@@ -72,29 +72,6 @@ export default function HeroComponent() {
                                 </div>
                             </div>
                         </Fade>
-                        <Fade
-                            direction="up"
-                            delay={700}
-                            triggerOnce={true}
-                        >
-                            <div className="px-4 py-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-                                <span className="font-semibold text-gray-400 uppercase">TRUSTED BY</span>
-                                <div className="flex items-center justify-evenly mt-8 text-gray-500">
-                                    <Image
-                                        src={mdhLogo}
-                                        alt="MDH logo"
-                                        width={150}
-                                        height={50}
-                                    />
-                                    <Image
-                                        src={healthwayLogo}
-                                        alt="Healthway logo"
-                                        width={150}
-                                        height={100}
-                                    />
-                                </div>
-                            </div>
-                        </Fade>
                     </div>
                 </section>
             </div>

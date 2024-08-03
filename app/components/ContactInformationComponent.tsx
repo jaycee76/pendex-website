@@ -24,9 +24,9 @@ const people = [
     },
     {
         name: 'E-mail',
-        email: 'Chris.jasmin@phendexmedical.com',
+        email: 'Sales@phendexmedical.com',
         imageUrl: 'https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png',
-        emailLink: 'mailto:Chris.jasmin@phendexmedical.com',
+        emailLink: 'mailto:Sales@phendexmedical.com',
         emailLabel: 'Send an e-mail'
     },
 ]
