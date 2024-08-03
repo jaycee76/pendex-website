@@ -21,29 +21,30 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
 
+// Helper functions
+const extractAndFilterDetails = (productArray: any[]) => {
+  return productArray.flatMap((item: any) => item!.features).filter((feature: undefined) => feature !== undefined);
+};
+
+const extractAndFilterImageLinks = (productArray: any[]) => {
+  return productArray.flatMap((item: { productImages: any }) => item.productImages).filter((image: undefined) => image !== undefined);
+};
+
 // BOSO PRODUCTS
-let bosoProductDetails = products.Boso.flatMap((features) => features!.features)!;
-bosoProductDetails = bosoProductDetails.filter((filter) => filter !== undefined);
-let bosoProductImageLink = products.Boso.flatMap((images) => images.productImages);
-bosoProductImageLink = bosoProductImageLink.filter((filter) => filter !== undefined);
+let bosoProductDetails = extractAndFilterDetails(products.Boso);
+let bosoProductImageLink = extractAndFilterImageLinks(products.Boso);
 
 // BOSO NEW PRODUCT
-let newBosoProductDetails = products.BosoNew.flatMap((features) => features!.features)!;
-newBosoProductDetails = newBosoProductDetails.filter((filter) => filter !== undefined);
-let newBosoProductImageLink = products.BosoNew.flatMap((images) => images.productImages);
-newBosoProductImageLink = newBosoProductImageLink.filter((filter) => filter !== undefined);
+let newBosoProductDetails = extractAndFilterDetails(products.BosoNew);
+let newBosoProductImageLink = extractAndFilterImageLinks(products.BosoNew);
 
 // KENZ PRODUCTS
-let kenzProductDetails = products.Kenz.flatMap((features) => features!.features)!;
-kenzProductDetails = kenzProductDetails.filter((filter) => filter !== undefined);
-let kenzProductImageLink = products.Kenz.flatMap((images) => images.productImages);
-kenzProductImageLink = kenzProductImageLink.filter((filter) => filter !== undefined);
+let kenzProductDetails = extractAndFilterDetails(products.Kenz);
+let kenzProductImageLink = extractAndFilterImageLinks(products.Kenz);
 
 // SKINTACT PRODUCTS
-let skinTactProductDetails = products.Skintact.flatMap((features) => features!.features)!;
-skinTactProductDetails = skinTactProductDetails.filter((filter) => filter !== undefined);
-let skinTactProductImageLink = products.Skintact.flatMap((images) => images.productImages);
-skinTactProductImageLink = skinTactProductImageLink.filter((filter) => filter !== undefined);
+let skinTactProductDetails = extractAndFilterDetails(products.Skintact);
+let skinTactProductImageLink = extractAndFilterImageLinks(products.Skintact);
 
 export default function Example() {
   return (
@@ -136,8 +137,8 @@ export default function Example() {
                 <ProductInfoComponent
                   prodName={products.Boso.flatMap((prodName) => prodName.productNames) as unknown as string}
                   prodDesc={products.Boso.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-                  productDetails={bosoProductDetails.map((productDetail) => productDetail)}
-                  productImageLink={bosoProductImageLink.map((productImg) => productImg)}
+                  productDetails={bosoProductDetails.map((productDetail: any) => productDetail)}
+                  productImageLink={bosoProductImageLink.map((productImg: any) => productImg)}
                 />
               </Fade>
               <Fade
@@ -148,8 +149,8 @@ export default function Example() {
                 <ProductInfoComponent
                   prodName={products.BosoNew.flatMap((prodName) => prodName.productNames) as unknown as string}
                   prodDesc={products.BosoNew.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-                  productDetails={newBosoProductDetails.map((productDetail) => productDetail)}
-                  productImageLink={newBosoProductImageLink.map((productImg) => productImg)}
+                  productDetails={newBosoProductDetails.map((productDetail: any) => productDetail)}
+                  productImageLink={newBosoProductImageLink.map((productImg: any) => productImg)}
                 />
               </Fade>
               <Fade
@@ -160,8 +161,8 @@ export default function Example() {
                 <ProductInfoComponent
                   prodName={products.Kenz.flatMap((prodName) => prodName.productNames) as unknown as string}
                   prodDesc={products.Kenz.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-                  productDetails={kenzProductDetails.map((productDetail) => productDetail)}
-                  productImageLink={kenzProductImageLink.map((productImg) => productImg)}
+                  productDetails={kenzProductDetails.map((productDetail: any) => productDetail)}
+                  productImageLink={kenzProductImageLink.map((productImg: any) => productImg)}
                 />
               </Fade>
               <Fade
@@ -172,8 +173,8 @@ export default function Example() {
                 <ProductInfoComponent
                   prodName={products.Skintact.flatMap((prodName) => prodName.productNames) as unknown as string}
                   prodDesc={products.Skintact.flatMap((prodDesc) => prodDesc.description) as unknown as string}
-                  productDetails={skinTactProductDetails.map((productDetail) => productDetail)}
-                  productImageLink={skinTactProductImageLink.map((productImg) => productImg)}
+                  productDetails={skinTactProductDetails.map((productDetail: any) => productDetail)}
+                  productImageLink={skinTactProductImageLink.map((productImg: any) => productImg)}
                 />
               </Fade>
             </div>

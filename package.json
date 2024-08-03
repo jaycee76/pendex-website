@@ -1,5 +1,6 @@
 {
   "name": "pendex-website",
+  "homepage": "https://www.phendexmedical.net",
   "version": "0.1.0",
   "private": true,
   "scripts": {
