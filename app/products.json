@@ -1,159 +1,479 @@
 {
-    "Boso": [
+  "Skintact": [
+    {
+      "productNames": "SKINTACT RT34"
+    },
+    {
+      "description": "Resting ECG electrodes"
+    },
+    {
+      "features": [
         {
-            "features": [
-                {
-                    "label": "Manufacturer",
-                    "labelDescription": "By boso (BOSCH+SOHN)"
-                },
-                {
-                    "label": "Details",
-                    "labelDescription": "Cuffs for adults (can be washed off, latex-free)- Size M (13 x 62 | 20 – 31) - Size L (16 x 68 | 28 – 38 ) - Cuffs, optional: S (10 x 38 | 15 – 22), XL (17 x 76 | 36 – 50"
-                },
-                {
-                    "label": "Inclusions",
-                    "labelDescription": "- boso TM-2450 - profil-manager XD - Important notes - Battery charge"
-                }
-            ]
+          "label": "Manufacturer",
+          "labelDescription": "Leonhard Lang GmbH"
         },
         {
-            "productNames": "boso TM-2450"
+          "label": "Details",
+          "labelDescription": "Offers reliable ECG signals with Aqua-Tac hydrogel, ideal for demanding conditions. It adhere comfortably and can be removed without irritation or hair loss, while also reducing the risk of cross infection compared to suction electrodes."
         },
         {
-            "description": "24h Blood Pressure Monitor: Smaller - Lighter - Quieter"
+            "label": "Use",
+            "labelDescription": "Resting ECG, Pediatric"
         },
         {
-            "productImages": [
-                {
-                    "image": "/boso_1.jpg"
-                },
-                {
-                    "image": "/boso_2.jpg"
-                },
-                {
-                    "image": "/boso_3.jpg"
-                },
-                {
-                    "image": "/boso_4.jpg"
-                },
-                {
-                    "image": "/boso_5.jpg"
-                }
-            ]
+          "label": "Inclusions",
+          "labelDescription": "One (1) box of ECG Electrodes (500pcs) \nOne (1) pack of Tab Clip"
         }
-    ],
-    "BosoNew": [
+      ]
+    },
+    {
+      "productImages": [
         {
-            "features": [
-                {
-                    "label": "Manufacturer",
-                    "labelDescription": "By boso (BOSCH+SOHN)"
-                },
-                {
-                    "label": "Details",
-                    "labelDescription": "The measurement of the ankle-brachial index with the boso ABI-system takes 1 minute and also discovers asymptomatic patients. Reliable and simple – so it can easily be delegated to employees."
-                },
-                {
-                    "label": "Inclusions",
-                    "labelDescription": "Send us an email for a brochure for more information."
-                }
-            ]
-        },
-        {
-            "productNames": "boso Arteriosclerosis PAOD-Screening"
-        },
-        {
-            "description": "The ankle brachial index is the best predictor of heart attack, stroke and mortality."
-        },
-        {
-            "productImages": [
-                {
-                    "image": "/boso_new_1.jpg"
-                },
-                {
-                    "image": "/boso_new_2.jpg"
-                }
-            ]
+          "image": "/SKINTACT_RT34.png"
         }
-    ],
-    "Kenz": [
+      ]
+    }
+  ],
+  "SkintactFSVB": [
+    {
+      "productNames": "SKINTACT FS-VB01"
+    },
+    {
+      "description": "Premium Electrodes"
+    },
+    {
+      "features": [
         {
-            "features": [
-                {
-                    "label": "Manufacturer",
-                    "labelDescription": "Suzuken Company Limited"
-                },
-                {
-                    "label": "Details",
-                    "labelDescription": "Compact plus tough body for bathing - Disposable Electrode Cardyrode-E/W(waterpoof/non waterpoof) - Flexibility in patient cable selection - Double lock mechanism plus confirmation"
-                },
-                {
-                    "label": "Inclusions",
-                    "labelDescription": "Cardy 304 - Cardy Analyzer 05 Type-S (Holter Analysis Software)"
-                }
-            ]
+          "label": "Manufacturer",
+          "labelDescription": "Leonhard Lang GmbH"
         },
         {
-            "productNames": "Kenz - Cardy 304"
+          "label": "Details",
+          "labelDescription": "Offers reliable ECG signals with Aqua-Tac hydrogel, ideal for demanding conditions. It offers reliable adhesion even with heavy perspiration, suitable for both ECG and echocardiograms."
         },
         {
-            "description": "Compact Water Resistant Holter Recorder"
+            "label": "Use",
+            "labelDescription": "Stress Test, Holter, ICU, Emergency, Operation, 2D Echo"
         },
         {
-            "productImages": [
-                {
-                    "image": "/kenz_7.jpg"
-                },
-                {
-                    "image": "/kenz_5.jpg"
-                }
-            ]
+          "label": "Inclusions",
+          "labelDescription": "One (1) box of ECG Electrodes (1,200pcs)"
         }
-    ],
-    "Skintact": [
+      ]
+    },
+    {
+      "productImages": [
         {
-            "features": [
-                {
-                    "label": "Manufacturer",
-                    "labelDescription": "Leonhard Lang GmbH"
-                },
-                {
-                    "label": "Details",
-                    "labelDescription": "Excellent quality ECG recordings are dependent on three main factors: good skin preparation, superior quality electrodes, and a continuous unbroken electrical pathway from the skin to the ECG machine"
-                },
-                {
-                    "label": "Inclusions",
-                    "labelDescription": "Send us an email for a brochure for more information"
-                }
-            ]
-        },
-        {
-            "productNames": "Skintact RT34"
-        },
-        {
-            "description": "ECG Electrodes"
-        },
-        {
-            "productImages": [
-                {
-                    "image": "/skintact_1.jpg"
-                },
-                {
-                    "image": "/skintact_3.jpg"
-                },
-                {
-                    "image": "/skintact_8.jpg"
-                },
-                {
-                    "image": "/skintact_2.jpg"
-                },
-                {
-                    "image": "/skintact_5.jpg"
-                },
-                {
-                    "image": "/skintact_6.jpg"
-                }
-            ]
+          "image": "/SKINTACT_FSVB01.png"
         }
-    ]
+      ]
+    }
+  ],
+  "SkintactFSTC1": [
+    {
+      "productNames": "SKINTACT FS-TC1/10"
+    },
+    {
+      "description": "Universal Electrodes"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "Leonhard Lang GmbH"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "Offers high quality at a reasonable price. Each card features a perforation for easy separation into two strips, and a lift tab on the label material facilitates handling, even with surgical gloves."
+        },
+        {
+            "label": "Use",
+            "labelDescription": "Stress Test, Emergency, Operation, 2D Echo"
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) box of Universal Electrodes (1,500pcs)"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/SKINTACT_FSTC110.png"
+        }
+      ]
+    }
+  ],
+  "SonyType1": [
+    {
+      "productNames": "SONY TYPE I UPP 110 S Thermal Paper"
+    },
+    {
+      "description": "Thermal Print Media"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "SONY"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "A6 width black and white standard print media (type I) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) box of SONY TYPE I UPP 110 S Thermal Paper"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/SONY_TYPEI.png"
+        }
+      ]
+    }
+  ],
+  "SonyType2": [
+    {
+      "productNames": "SONY TYPE II UPP 110 HD Thermal Paper"
+    },
+    {
+      "description": "Thermal Print Media"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "SONY"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "A6 width black and white high density print media (type II) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) box of SONY TYPE II UPP 110 HD Thermal Paper"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/SONY_TYPEII.png"
+        }
+      ]
+    }
+  ],
+  "SonyType5": [
+    {
+      "productNames": "SONY TYPE V UPP 110 HG Thermal Paper"
+    },
+    {
+      "description": "Thermal Print Media"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "SONY"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "A6 width black and white high glossy print media (type V) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) box of SONY TYPE II UPP 110 HG Thermal Paper"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/SONY_TYPEV.png"
+        }
+      ]
+    }
+  ],
+  "Sonomed": [
+    {
+      "productNames": "SONOMED ULTRASOUND GEL"
+    },
+    {
+      "description": "Ultrasound Gel"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "SONOMED"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "A water-based gel made from filtered water that is suitable for all ultrasound apparatus. It reduced the air space for the transducer to send the sound wave and receive the reflection back for a precise and clear image."
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) gallon of Sonomed Ultrasound Gel"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/SONOMED_ULTRASOUND_GEL.png"
+        }
+      ]
+    }
+  ],
+  "SonomedType5": [
+    {
+      "productNames": "SONOMED TYPE V UPP 110 HG Thermal Paper"
+    },
+    {
+      "description": "Thermal Print Media"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "SONOMED"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "A6 width black and white high density print media (type II) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) box of Sonomed Type 5 UPP 110 HG Thermal Paper"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/SONOMED_TYPEV.png"
+        }
+      ]
+    }
+  ],
+  "BosoTM": [
+    {
+      "productNames": "BOSO TM-2450"
+    },
+    {
+      "description": "24h Ambulatory Blood Pressure Monitor"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "BOSO BOSCH+SOHN"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "Enhance comfort and efficiency: a compact, lightweight, and quiet solution for effective ambulatory blood pressure monitoring."
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) unit of Bosch+Sohn TM-2450 24h Ambulatory Blood Pressure Monitor \nOne (1) pc of BOSO BP Cuff and Bladder \nOne (1) pc of Belt, Sling and Pouch"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/BOSO_TM2450.png"
+        }
+      ]
+    }
+  ],
+  "BosoMedistar": [
+    {
+      "productNames": "BOSO MEDISTAR+"
+    },
+    {
+      "description": "Wrist blood pressure monitor"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "BOSO BOSCH+SOHN"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "This wrist model is the perfect solution for all those who want to get more information about their blood pressure status. The memory can store 90 measurements and is the basis for assessing blood pressure. And the device has a large display and elegant design."
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) unit of Bosch+Sohn Medistar \nOne (1) unit of case and batteries \nOne (1) unit of cuffs for wrists"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/BOSO_MEDISTAR.png"
+        }
+      ]
+    }
+  ],
+  "BosoMedicusFamilyFour": [
+    {
+      "productNames": "BOSO MEDICUS FAMILY 4"
+    },
+    {
+      "description": "The blood pressure instrument for couples and families"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "BOSO BOSCH+SOHN"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "This model is four devices in one: the whole family can monitor their blood pressure thanks to four separate memories each capable of storing 60 measurements. This is particularly useful as it allows different users to measure their blood pressure quickly and smoothly."
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) unit of Bosch+Sohn Medicus Family 4 \nOne (1) unit of case and batteries \nOne (1) pc of BOSO cuffs \nOne (1) pc of Bag"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/BOSO_MEDICUS_FAMILY_4.png"
+        }
+      ]
+    }
+  ],
+  "BosoMedicusX": [
+    {
+      "productNames": "BOSO MEDICUS X"
+    },
+    {
+      "description": "3x the best upper arm blood pressure monitor"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "BOSO BOSCH+SOHN"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "This model has all the important features you need for an accurate blood pressure measurement: memories for 30 values for a reliable evaluation of the blood pressure and detection of arrhythmia. The operation is easy via a single button."
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) unit of Bosch+Sohn Medicus X \nOne (1) unit of case and batteries \nOne (1) pc of BOSO cuffs \nOne (1) pc of Bag"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/BOSO_MEDICUS_X.png"
+        }
+      ]
+    }
+  ],
+  "BosoMedicusPrestigeS": [
+    {
+      "productNames": "BOSO MEDICUS PRESTIGE S"
+    },
+    {
+      "description": "With triple-check feature"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "BOSO BOSCH+SOHN"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "An oscillometric measuring device with an extra large display and a clear design for an optimal overview of the measurement. The device has an intelligent automatic inflation system, which enables rapid and precise inflation to the individual pressure value required by the user - very gently and without re-inflating."
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) unit of Bosch+Sohn Medicus Prestige S \nOne (1) unit of case and batteries \nOne (1) pc of BOSO cuffs \nOne (1) pc of Bag"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/BOSO_MEDICUS_PRESTIGE_S.png"
+        }
+      ]
+    }
+  ],
+  "BosoNovaS": [
+    {
+      "productNames": "BOSO NOVA S"
+    },
+    {
+      "description": "The wall-mounted, table, tripod or universal holding model"
+    },
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "BOSO BOSCH+SOHN"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "A floor type blood pressure monitor with an extra large scale for bold measured values in everyday hospital life."
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) set of Bosch+Sohn Medicus Prestige S \nOne (1) unit of case and batteries \nOne (1) pc of BOSO cuffs \nOne (1) pc of Bag"
+        }
+      ]
+    },
+    {
+      "productImages": [
+        {
+          "image": "/BOSO_NOVA_S.png"
+        }
+      ]
+    }
+  ],
+  "Kenz": [
+    {
+      "features": [
+        {
+          "label": "Manufacturer",
+          "labelDescription": "Suzuken Company Limited"
+        },
+        {
+          "label": "Details",
+          "labelDescription": "Compact plus tough body for bathing - Disposable Electrode Cardyrode-E/W(waterpoof/non waterpoof) - Flexibility in patient cable selection - Double lock mechanism plus confirmation"
+        },
+        {
+          "label": "Inclusions",
+          "labelDescription": "One (1) unit of Kenz Cardy 304 Holter Recorder 24 to 48Hrs (waterproof) \nOne (1) set of Kenz Cardy Holter Analysis System 05 (Analysis Software) \nOne (1) pc of Kenz 7 leads non-waterproof cable \nOne (1) pc of Micro SD card \nOne (1) pc of Holter Pouch, Holter Belt, Holter Sling"
+        }
+      ]
+    },
+    {
+      "productNames": "Kenz - Cardy 304"
+    },
+    {
+      "description": "Compact Water Resistant Holter Recorder"
+    },
+    {
+      "productImages": [
+        {
+          "image": "/KENZ_CARDY304.png"
+        }
+      ]
+    }
+  ]
 }

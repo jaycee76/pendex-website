@@ -2,8 +2,6 @@ import Image from "next/image";
 import bosoLogo from "@/public/boso_logo.png"
 import leonhardlogo from "@/public/LeonhardLang_logo.png"
 import kenzLogo from "@/public/kenz_logo.png"
-import mdhLogo from "@/public/mdhLogo.png"
-import healthwayLogo from "@/public/healthwayLogo.jpg"
 import { Slide, Fade } from "react-awesome-reveal";
 
 export default function HeroComponent() {
