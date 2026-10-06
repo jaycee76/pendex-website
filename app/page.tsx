@@ -2,14 +2,16 @@ import HeroComponent from "./components/HeroComponent";
 import ContactComponent from "./components/ContactComponent";
 import { NavigationBar } from "./components/NavigationBar";
 import { ProductList } from "./components/ProductList";
-import { getProcessedProducts } from "./utils/getProcessedProducts";
+import productsData from "./products.json";
+import type { Product } from "./types/product";
+
+const products: Product[] = productsData;
 
 /**
  * Main home page component for Phendex website
  * Features a responsive navigation, hero section, product showcase, and contact information
  */
 export default function PhendexHomePage() {
-  const processedProducts = getProcessedProducts();
 
   return (
     <div className="min-h-full">
@@ -25,7 +27,7 @@ export default function PhendexHomePage() {
 
         {/* Products Section */}
         <section className="mx-auto max-w-7xl pt-1 sm:px-6 lg:px-8" id="products">
-          <ProductList products={processedProducts} />
+          <ProductList products={products} />
         </section>
 
         {/* Contact Section */}

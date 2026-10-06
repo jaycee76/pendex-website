@@ -1,479 +1,426 @@
-{
-  "Skintact": [
-    {
-      "productNames": "SKINTACT RT34"
-    },
-    {
-      "description": "Resting ECG electrodes"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "Leonhard Lang GmbH"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "Offers reliable ECG signals with Aqua-Tac hydrogel, ideal for demanding conditions. It adhere comfortably and can be removed without irritation or hair loss, while also reducing the risk of cross infection compared to suction electrodes."
-        },
-        {
-            "label": "Use",
-            "labelDescription": "Resting ECG, Pediatric"
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) box of ECG Electrodes (500pcs) \nOne (1) pack of Tab Clip"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/SKINTACT_RT34.webp"
-        }
-      ]
-    }
-  ],
-  "SkintactFSVB": [
-    {
-      "productNames": "SKINTACT FS-VB01"
-    },
-    {
-      "description": "Premium Electrodes"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "Leonhard Lang GmbH"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "Offers reliable ECG signals with Aqua-Tac hydrogel, ideal for demanding conditions. It offers reliable adhesion even with heavy perspiration, suitable for both ECG and echocardiograms."
-        },
-        {
-            "label": "Use",
-            "labelDescription": "Stress Test, Holter, ICU, Emergency, Operation, 2D Echo"
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) box of ECG Electrodes (1,200pcs)"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/SKINTACT_FSVB01.webp"
-        }
-      ]
-    }
-  ],
-  "SkintactFSTC1": [
-    {
-      "productNames": "SKINTACT FS-TC1/10"
-    },
-    {
-      "description": "Universal Electrodes"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "Leonhard Lang GmbH"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "Offers high quality at a reasonable price. Each card features a perforation for easy separation into two strips, and a lift tab on the label material facilitates handling, even with surgical gloves."
-        },
-        {
-            "label": "Use",
-            "labelDescription": "Stress Test, Emergency, Operation, 2D Echo"
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) box of Universal Electrodes (1,500pcs)"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/SKINTACT_FSTC110.webp"
-        }
-      ]
-    }
-  ],
-  "SonyType1": [
-    {
-      "productNames": "SONY TYPE I UPP 110 S Thermal Paper"
-    },
-    {
-      "description": "Thermal Print Media"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "SONY"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "A6 width black and white standard print media (type I) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) box of SONY TYPE I UPP 110 S Thermal Paper"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/SONY_TYPEI.webp"
-        }
-      ]
-    }
-  ],
-  "SonyType2": [
-    {
-      "productNames": "SONY TYPE II UPP 110 HD Thermal Paper"
-    },
-    {
-      "description": "Thermal Print Media"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "SONY"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "A6 width black and white high density print media (type II) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) box of SONY TYPE II UPP 110 HD Thermal Paper"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/SONY_TYPEII.webp"
-        }
-      ]
-    }
-  ],
-  "SonyType5": [
-    {
-      "productNames": "SONY TYPE V UPP 110 HG Thermal Paper"
-    },
-    {
-      "description": "Thermal Print Media"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "SONY"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "A6 width black and white high glossy print media (type V) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) box of SONY TYPE II UPP 110 HG Thermal Paper"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/SONY_TYPEV.webp"
-        }
-      ]
-    }
-  ],
-  "Sonomed": [
-    {
-      "productNames": "SONOMED ULTRASOUND GEL"
-    },
-    {
-      "description": "Ultrasound Gel"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "SONOMED"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "A water-based gel made from filtered water that is suitable for all ultrasound apparatus. It reduced the air space for the transducer to send the sound wave and receive the reflection back for a precise and clear image."
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) gallon or 260g of Sonomed Ultrasound Gel"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/SONOMED_ULTRASOUND_GEL.webp"
-        }
-      ]
-    }
-  ],
-  "SonomedType5": [
-    {
-      "productNames": "SONOMED TYPE V UPP 110 HG Thermal Paper"
-    },
-    {
-      "description": "Thermal Print Media"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "SONOMED"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "A6 width black and white high density print media (type II) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) box of Sonomed Type 5 UPP 110 HG Thermal Paper"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/SONOMED_TYPEV.webp"
-        }
-      ]
-    }
-  ],
-  "BosoTM": [
-    {
-      "productNames": "BOSO TM-2450"
-    },
-    {
-      "description": "24h Ambulatory Blood Pressure Monitor"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "BOSO BOSCH+SOHN"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "Enhance comfort and efficiency: a compact, lightweight, and quiet solution for effective ambulatory blood pressure monitoring."
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) unit of Bosch+Sohn TM-2450 24h Ambulatory Blood Pressure Monitor \nOne (1) pc of BOSO BP Cuff and Bladder \nOne (1) pc of Belt, Sling and Pouch"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/BOSO_TM2450.webp"
-        }
-      ]
-    }
-  ],
-  "BosoMedistar": [
-    {
-      "productNames": "BOSO MEDISTAR+"
-    },
-    {
-      "description": "Wrist blood pressure monitor"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "BOSO BOSCH+SOHN"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "This wrist model is the perfect solution for all those who want to get more information about their blood pressure status. The memory can store 90 measurements and is the basis for assessing blood pressure. And the device has a large display and elegant design."
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) unit of Bosch+Sohn Medistar \nOne (1) unit of case and batteries \nOne (1) unit of cuffs for wrists"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/BOSO_MEDISTAR.webp"
-        }
-      ]
-    }
-  ],
-  "BosoMedicusFamilyFour": [
-    {
-      "productNames": "BOSO MEDICUS FAMILY 4"
-    },
-    {
-      "description": "The blood pressure instrument for couples and families"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "BOSO BOSCH+SOHN"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "This model is four devices in one: the whole family can monitor their blood pressure thanks to four separate memories each capable of storing 60 measurements. This is particularly useful as it allows different users to measure their blood pressure quickly and smoothly."
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) unit of Bosch+Sohn Medicus Family 4 \nOne (1) unit of case and batteries \nOne (1) pc of BOSO cuffs \nOne (1) pc of Bag"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/BOSO_MEDICUS_FAMILY_4.webp"
-        }
-      ]
-    }
-  ],
-  "BosoMedicusX": [
-    {
-      "productNames": "BOSO MEDICUS X"
-    },
-    {
-      "description": "3x the best upper arm blood pressure monitor"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "BOSO BOSCH+SOHN"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "This model has all the important features you need for an accurate blood pressure measurement: memories for 30 values for a reliable evaluation of the blood pressure and detection of arrhythmia. The operation is easy via a single button."
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) unit of Bosch+Sohn Medicus X \nOne (1) unit of case and batteries \nOne (1) pc of BOSO cuffs \nOne (1) pc of Bag"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/BOSO_MEDICUS_X.webp"
-        }
-      ]
-    }
-  ],
-  "BosoMedicusPrestigeS": [
-    {
-      "productNames": "BOSO MEDICUS PRESTIGE S"
-    },
-    {
-      "description": "With triple-check feature"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "BOSO BOSCH+SOHN"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "An oscillometric measuring device with an extra large display and a clear design for an optimal overview of the measurement. The device has an intelligent automatic inflation system, which enables rapid and precise inflation to the individual pressure value required by the user - very gently and without re-inflating."
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) unit of Bosch+Sohn Medicus Prestige S \nOne (1) unit of case and batteries \nOne (1) pc of BOSO cuffs \nOne (1) pc of Bag"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/BOSO_MEDICUS_PRESTIGE_S.webp"
-        }
-      ]
-    }
-  ],
-  "BosoNovaS": [
-    {
-      "productNames": "BOSO NOVA S"
-    },
-    {
-      "description": "The wall-mounted, table, tripod or universal holding model"
-    },
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "BOSO BOSCH+SOHN"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "A floor type blood pressure monitor with an extra large scale for bold measured values in everyday hospital life."
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) set of Bosch+Sohn Medicus Prestige S \nOne (1) unit of case and batteries \nOne (1) pc of BOSO cuffs \nOne (1) pc of Bag"
-        }
-      ]
-    },
-    {
-      "productImages": [
-        {
-          "image": "/BOSO_NOVA_S.webp"
-        }
-      ]
-    }
-  ],
-  "Kenz": [
-    {
-      "features": [
-        {
-          "label": "Manufacturer",
-          "labelDescription": "Suzuken Company Limited"
-        },
-        {
-          "label": "Details",
-          "labelDescription": "Compact plus tough body for bathing - Disposable Electrode Cardyrode-E/W(waterpoof/non waterpoof) - Flexibility in patient cable selection - Double lock mechanism plus confirmation"
-        },
-        {
-          "label": "Inclusions",
-          "labelDescription": "One (1) unit of Kenz Cardy 304 Holter Recorder 24 to 48Hrs (waterproof) \nOne (1) set of Kenz Cardy Holter Analysis System 05 (Analysis Software) \nOne (1) pc of Kenz 7 leads non-waterproof cable \nOne (1) pc of Micro SD card \nOne (1) pc of Holter Pouch, Holter Belt, Holter Sling"
-        }
-      ]
-    },
-    {
-      "productNames": "Kenz - Cardy 304"
-    },
-    {
-      "description": "Compact Water Resistant Holter Recorder"
-    },
-    {
-      "productImages": [
-        {
-          "image": "/KENZ_CARDY304.webp"
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "id": "skintact-rt34",
+    "name": "SKINTACT RT34",
+    "description": "Resting ECG electrodes",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "Leonhard Lang GmbH"
+      },
+      {
+        "label": "Details",
+        "value": "Offers reliable ECG signals with Aqua-Tac hydrogel, ideal for demanding conditions. It adhere comfortably and can be removed without irritation or hair loss, while also reducing the risk of cross infection compared to suction electrodes."
+      },
+      {
+        "label": "Use",
+        "value": "Resting ECG, Pediatric"
+      },
+      {
+        "label": "Inclusions",
+        "value": [
+          "One (1) box of ECG Electrodes (500pcs) ",
+          "One (1) pack of Tab Clip"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "/SKINTACT_RT34.webp",
+        "alt": "SKINTACT RT34 product image"
+      }
+    ]
+  },
+  {
+    "id": "skintact-fs-vb01",
+    "name": "SKINTACT FS-VB01",
+    "description": "Premium Electrodes",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "Leonhard Lang GmbH"
+      },
+      {
+        "label": "Details",
+        "value": "Offers reliable ECG signals with Aqua-Tac hydrogel, ideal for demanding conditions. It offers reliable adhesion even with heavy perspiration, suitable for both ECG and echocardiograms."
+      },
+      {
+        "label": "Use",
+        "value": "Stress Test, Holter, ICU, Emergency, Operation, 2D Echo"
+      },
+      {
+        "label": "Inclusions",
+        "value": "One (1) box of ECG Electrodes (1,200pcs)"
+      }
+    ],
+    "images": [
+      {
+        "src": "/SKINTACT_FSVB01.webp",
+        "alt": "SKINTACT FS-VB01 product image"
+      }
+    ]
+  },
+  {
+    "id": "skintact-fs-tc1-10",
+    "name": "SKINTACT FS-TC1/10",
+    "description": "Universal Electrodes",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "Leonhard Lang GmbH"
+      },
+      {
+        "label": "Details",
+        "value": "Offers high quality at a reasonable price. Each card features a perforation for easy separation into two strips, and a lift tab on the label material facilitates handling, even with surgical gloves."
+      },
+      {
+        "label": "Use",
+        "value": "Stress Test, Emergency, Operation, 2D Echo"
+      },
+      {
+        "label": "Inclusions",
+        "value": "One (1) box of Universal Electrodes (1,500pcs)"
+      }
+    ],
+    "images": [
+      {
+        "src": "/SKINTACT_FSTC110.webp",
+        "alt": "SKINTACT FS-TC1/10 product image"
+      }
+    ]
+  },
+  {
+    "id": "sony-type-i-upp-110-s-thermal-paper",
+    "name": "SONY TYPE I UPP 110 S Thermal Paper",
+    "description": "Thermal Print Media",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "SONY"
+      },
+      {
+        "label": "Details",
+        "value": "A6 width black and white standard print media (type I) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
+      },
+      {
+        "label": "Inclusions",
+        "value": "One (1) box of SONY TYPE I UPP 110 S Thermal Paper"
+      }
+    ],
+    "images": [
+      {
+        "src": "/SONY_TYPEI.webp",
+        "alt": "SONY TYPE I UPP 110 S Thermal Paper product image"
+      }
+    ]
+  },
+  {
+    "id": "sony-type-ii-upp-110-hd-thermal-paper",
+    "name": "SONY TYPE II UPP 110 HD Thermal Paper",
+    "description": "Thermal Print Media",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "SONY"
+      },
+      {
+        "label": "Details",
+        "value": "A6 width black and white high density print media (type II) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
+      },
+      {
+        "label": "Inclusions",
+        "value": "One (1) box of SONY TYPE II UPP 110 HD Thermal Paper"
+      }
+    ],
+    "images": [
+      {
+        "src": "/SONY_TYPEII.webp",
+        "alt": "SONY TYPE II UPP 110 HD Thermal Paper product image"
+      }
+    ]
+  },
+  {
+    "id": "sony-type-v-upp-110-hg-thermal-paper",
+    "name": "SONY TYPE V UPP 110 HG Thermal Paper",
+    "description": "Thermal Print Media",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "SONY"
+      },
+      {
+        "label": "Details",
+        "value": "A6 width black and white high glossy print media (type V) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
+      },
+      {
+        "label": "Inclusions",
+        "value": "One (1) box of SONY TYPE II UPP 110 HG Thermal Paper"
+      }
+    ],
+    "images": [
+      {
+        "src": "/SONY_TYPEV.webp",
+        "alt": "SONY TYPE V UPP 110 HG Thermal Paper product image"
+      }
+    ]
+  },
+  {
+    "id": "sonomed-ultrasound-gel",
+    "name": "SONOMED ULTRASOUND GEL",
+    "description": "Ultrasound Gel",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "SONOMED"
+      },
+      {
+        "label": "Details",
+        "value": "A water-based gel made from filtered water that is suitable for all ultrasound apparatus. It reduced the air space for the transducer to send the sound wave and receive the reflection back for a precise and clear image."
+      },
+      {
+        "label": "Inclusions",
+        "value": "One (1) gallon or 260g of Sonomed Ultrasound Gel"
+      }
+    ],
+    "images": [
+      {
+        "src": "/SONOMED_ULTRASOUND_GEL.webp",
+        "alt": "SONOMED ULTRASOUND GEL product image"
+      }
+    ]
+  },
+  {
+    "id": "sonomed-type-v-upp-110-hg-thermal-paper",
+    "name": "SONOMED TYPE V UPP 110 HG Thermal Paper",
+    "description": "Thermal Print Media",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "SONOMED"
+      },
+      {
+        "label": "Details",
+        "value": "A6 width black and white high density print media (type II) for use in UP- X898MD/D898MD/D898DC/897MD/D897 printers"
+      },
+      {
+        "label": "Inclusions",
+        "value": "One (1) box of Sonomed Type 5 UPP 110 HG Thermal Paper"
+      }
+    ],
+    "images": [
+      {
+        "src": "/SONOMED_TYPEV.webp",
+        "alt": "SONOMED TYPE V UPP 110 HG Thermal Paper product image"
+      }
+    ]
+  },
+  {
+    "id": "boso-tm-2450",
+    "name": "BOSO TM-2450",
+    "description": "24h Ambulatory Blood Pressure Monitor",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "BOSO BOSCH+SOHN"
+      },
+      {
+        "label": "Details",
+        "value": "Enhance comfort and efficiency: a compact, lightweight, and quiet solution for effective ambulatory blood pressure monitoring."
+      },
+      {
+        "label": "Inclusions",
+        "value": [
+          "One (1) unit of Bosch+Sohn TM-2450 24h Ambulatory Blood Pressure Monitor ",
+          "One (1) pc of BOSO BP Cuff and Bladder ",
+          "One (1) pc of Belt, Sling and Pouch"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "/BOSO_TM2450.webp",
+        "alt": "BOSO TM-2450 product image"
+      }
+    ]
+  },
+  {
+    "id": "boso-medistar",
+    "name": "BOSO MEDISTAR+",
+    "description": "Wrist blood pressure monitor",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "BOSO BOSCH+SOHN"
+      },
+      {
+        "label": "Details",
+        "value": "This wrist model is the perfect solution for all those who want to get more information about their blood pressure status. The memory can store 90 measurements and is the basis for assessing blood pressure. And the device has a large display and elegant design."
+      },
+      {
+        "label": "Inclusions",
+        "value": [
+          "One (1) unit of Bosch+Sohn Medistar ",
+          "One (1) unit of case and batteries ",
+          "One (1) unit of cuffs for wrists"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "/BOSO_MEDISTAR.webp",
+        "alt": "BOSO MEDISTAR+ product image"
+      }
+    ]
+  },
+  {
+    "id": "boso-medicus-family-4",
+    "name": "BOSO MEDICUS FAMILY 4",
+    "description": "The blood pressure instrument for couples and families",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "BOSO BOSCH+SOHN"
+      },
+      {
+        "label": "Details",
+        "value": "This model is four devices in one: the whole family can monitor their blood pressure thanks to four separate memories each capable of storing 60 measurements. This is particularly useful as it allows different users to measure their blood pressure quickly and smoothly."
+      },
+      {
+        "label": "Inclusions",
+        "value": [
+          "One (1) unit of Bosch+Sohn Medicus Family 4 ",
+          "One (1) unit of case and batteries ",
+          "One (1) pc of BOSO cuffs ",
+          "One (1) pc of Bag"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "/BOSO_MEDICUS_FAMILY_4.webp",
+        "alt": "BOSO MEDICUS FAMILY 4 product image"
+      }
+    ]
+  },
+  {
+    "id": "boso-medicus-x",
+    "name": "BOSO MEDICUS X",
+    "description": "3x the best upper arm blood pressure monitor",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "BOSO BOSCH+SOHN"
+      },
+      {
+        "label": "Details",
+        "value": "This model has all the important features you need for an accurate blood pressure measurement: memories for 30 values for a reliable evaluation of the blood pressure and detection of arrhythmia. The operation is easy via a single button."
+      },
+      {
+        "label": "Inclusions",
+        "value": [
+          "One (1) unit of Bosch+Sohn Medicus X ",
+          "One (1) unit of case and batteries ",
+          "One (1) pc of BOSO cuffs ",
+          "One (1) pc of Bag"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "/BOSO_MEDICUS_X.webp",
+        "alt": "BOSO MEDICUS X product image"
+      }
+    ]
+  },
+  {
+    "id": "boso-medicus-prestige-s",
+    "name": "BOSO MEDICUS PRESTIGE S",
+    "description": "With triple-check feature",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "BOSO BOSCH+SOHN"
+      },
+      {
+        "label": "Details",
+        "value": "An oscillometric measuring device with an extra large display and a clear design for an optimal overview of the measurement. The device has an intelligent automatic inflation system, which enables rapid and precise inflation to the individual pressure value required by the user - very gently and without re-inflating."
+      },
+      {
+        "label": "Inclusions",
+        "value": [
+          "One (1) unit of Bosch+Sohn Medicus Prestige S ",
+          "One (1) unit of case and batteries ",
+          "One (1) pc of BOSO cuffs ",
+          "One (1) pc of Bag"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "/BOSO_MEDICUS_PRESTIGE_S.webp",
+        "alt": "BOSO MEDICUS PRESTIGE S product image"
+      }
+    ]
+  },
+  {
+    "id": "boso-nova-s",
+    "name": "BOSO NOVA S",
+    "description": "The wall-mounted, table, tripod or universal holding model",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "BOSO BOSCH+SOHN"
+      },
+      {
+        "label": "Details",
+        "value": "A floor type blood pressure monitor with an extra large scale for bold measured values in everyday hospital life."
+      },
+      {
+        "label": "Inclusions",
+        "value": [
+          "One (1) set of Bosch+Sohn Medicus Prestige S ",
+          "One (1) unit of case and batteries ",
+          "One (1) pc of BOSO cuffs ",
+          "One (1) pc of Bag"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "/BOSO_NOVA_S.webp",
+        "alt": "BOSO NOVA S product image"
+      }
+    ]
+  },
+  {
+    "id": "kenz-cardy-304",
+    "name": "Kenz - Cardy 304",
+    "description": "Compact Water Resistant Holter Recorder",
+    "features": [
+      {
+        "label": "Manufacturer",
+        "value": "Suzuken Company Limited"
+      },
+      {
+        "label": "Details",
+        "value": "Compact plus tough body for bathing - Disposable Electrode Cardyrode-E/W(waterpoof/non waterpoof) - Flexibility in patient cable selection - Double lock mechanism plus confirmation"
+      },
+      {
+        "label": "Inclusions",
+        "value": [
+          "One (1) unit of Kenz Cardy 304 Holter Recorder 24 to 48Hrs (waterproof) ",
+          "One (1) set of Kenz Cardy Holter Analysis System 05 (Analysis Software) ",
+          "One (1) pc of Kenz 7 leads non-waterproof cable ",
+          "One (1) pc of Micro SD card ",
+          "One (1) pc of Holter Pouch, Holter Belt, Holter Sling"
+        ]
+      }
+    ],
+    "images": [
+      {
+        "src": "/KENZ_CARDY304.webp",
+        "alt": "Kenz - Cardy 304 product image"
+      }
+    ]
+  }
+]

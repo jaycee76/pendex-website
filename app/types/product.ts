@@ -8,41 +8,19 @@ export interface NavigationItem {
 
 export interface ProductFeature {
   label: string;
-  labelDescription: string;
+  /** A string, or an array of strings rendered one per line */
+  value: string | string[];
 }
 
 export interface ProductImage {
-  image: string;
+  src: string;
+  alt: string;
 }
 
-export interface ProductData {
-  productNames?: string;
-  description?: string;
-  features?: ProductFeature[];
-  productImages?: ProductImage[];
-}
-
-export interface ProcessedProduct {
+export interface Product {
+  id: string;
   name: string;
   description: string;
-  details: ProductFeature[];
+  features: ProductFeature[];
   images: ProductImage[];
-  key: string;
 }
-
-export type ProductKey = 
-  | 'Skintact'
-  | 'SkintactFSVB' 
-  | 'SkintactFSTC1'
-  | 'SonyType1'
-  | 'SonyType2'
-  | 'SonyType5'
-  | 'Sonomed'
-  | 'SonomedType5'
-  | 'BosoTM'
-  | 'BosoMedistar'
-  | 'BosoMedicusFamilyFour'
-  | 'BosoMedicusX'
-  | 'BosoMedicusPrestigeS'
-  | 'BosoNovaS'
-  | 'Kenz';

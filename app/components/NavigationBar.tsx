@@ -4,7 +4,7 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import logo from "../assets/phendex_logo.png";
-import { classNames } from "../utils/productUtils";
+import { classNames } from "../utils/classNames";
 import { useActiveSection } from "../hooks/useActiveSection";
 
 // Navigation items without static current state
