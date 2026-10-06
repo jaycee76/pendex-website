@@ -1,33 +1,38 @@
+import Image from "next/image";
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/solid";
 
+const ICON_CLASS = "h-12 w-12 flex-none";
 
-const people = [
+const contacts = [
     {
         name: 'Cellphone No.',
-        email: '+(63) 9166783960 (Globe)',
-        imageUrl:
-            'https://cdn-icons-png.flaticon.com/512/46/46854.png',
+        value: '+(63) 9166783960 (Globe)',
+        icon: <PhoneIcon className={`${ICON_CLASS} p-2 text-green-900`} aria-hidden="true" />,
+        href: 'tel:+639166783960',
+        linkLabel: 'Call us',
     },
     {
         name: 'Messenger',
-        email: 'Phendex Medical Trading Inc.',
-        imageUrl:
-            '/messenger.svg',
-        messenger: 'https://www.facebook.com/messages/t/123536911050158',
-        messengerLabel: 'Send a message'
+        value: 'Phendex Medical Trading Inc.',
+        icon: <Image className={ICON_CLASS} src="/messenger.svg" alt="" width={48} height={48} />,
+        href: 'https://www.facebook.com/messages/t/123536911050158',
+        linkLabel: 'Send a message',
+        external: true,
     },
     {
         name: 'Facebook Page',
-        email: 'Phendex Medical Trading Inc.',
-        imageUrl: '/facebook.svg',
-        facebook: 'https://www.facebook.com/profile.php?id=100064192472915',
-        facebookLabel: 'Visit Facebook page'
+        value: 'Phendex Medical Trading Inc.',
+        icon: <Image className={ICON_CLASS} src="/facebook.svg" alt="" width={48} height={48} />,
+        href: 'https://www.facebook.com/profile.php?id=100064192472915',
+        linkLabel: 'Visit Facebook page',
+        external: true,
     },
     {
         name: 'E-mail',
-        email: 'Sales@phendexmedical.com',
-        imageUrl: 'https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png',
-        emailLink: 'mailto:Sales@phendexmedical.com',
-        emailLabel: 'Send an e-mail'
+        value: 'Sales@phendexmedical.com',
+        icon: <EnvelopeIcon className={`${ICON_CLASS} p-2 text-green-900`} aria-hidden="true" />,
+        href: 'mailto:Sales@phendexmedical.com',
+        linkLabel: 'Send an e-mail',
     },
 ]
 
@@ -35,17 +40,22 @@ export default function ContactInformationComponent() {
     return (
         <>
             <ul role="list" className="divide-y divide-green-200">
-                {people.map((person) => (
-                    <li key={person.name} className="flex justify-between gap-x-6 py-8">
+                {contacts.map((contact) => (
+                    <li key={contact.name} className="flex justify-between gap-x-6 py-8">
                         <div className="flex items-center gap-x-4">
-                            <img className="h-12 w-12 flex-none" src={person.imageUrl} alt="" />
+                            {contact.icon}
                             <div className="min-w-0 flex-auto">
-                                <p className="text-sm font-semibold leading-6 text-gray-900">{person.name}</p>
-                                <p className="mt-1 truncate text-xs leading-5 text-gray-500">{person.email}</p>
-                                <p className="mt-1 truncate text-xs leading-5 text-green-500"><a href={person.messenger} target="_blank">{person.messengerLabel}</a></p>
-                                <p className="mt-1 truncate text-xs leading-5 text-green-500"><a href={person.facebook} target="_blank">{person.facebookLabel}</a></p>
-                                <p className="mt-1 truncate text-xs leading-5 text-green-500"><a href={person.emailLink} target="_blank">{person.emailLabel}</a></p>
-
+                                <p className="text-sm font-semibold leading-6 text-gray-900">{contact.name}</p>
+                                <p className="mt-1 truncate text-xs leading-5 text-gray-700">{contact.value}</p>
+                                <p className="mt-1 truncate text-xs leading-5 text-green-900">
+                                    <a
+                                        href={contact.href}
+                                        className="underline"
+                                        {...(contact.external && { target: "_blank", rel: "noopener noreferrer" })}
+                                    >
+                                        {contact.linkLabel}
+                                    </a>
+                                </p>
                             </div>
                         </div>
                     </li>
