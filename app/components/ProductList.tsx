@@ -1,3 +1,5 @@
+"use client";
+
 import { Fade } from "react-awesome-reveal";
 import ProductInfoComponent from "./ProductInfo";
 import type { ProcessedProduct } from "../types/product";
