@@ -9,7 +9,7 @@ export default function ProductInfoComponent({ product }: { product: Product }) 
           <h2 className="text-3xl font-bold tracking-tight text-green-600 sm:text-4xl">
             {product.name}
           </h2>
-          <p className="mt-4 text-gray-500">{product.description}</p>
+          <p className="mt-4 text-gray-700">{product.description}</p>
           <dl className="mt-5 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {product.features.map((feature) => (
               <div
@@ -17,7 +17,7 @@ export default function ProductInfoComponent({ product }: { product: Product }) 
                 className="border-t border-green-100 pt-4 pb-4"
               >
                 <dt className="font-medium text-gray-900">{feature.label}</dt>
-                <dd className="mt-2 text-sm text-gray-500">
+                <dd className="mt-2 text-sm text-gray-700">
                   {Array.isArray(feature.value)
                     ? feature.value.map((line, i) => (
                         <span key={i} className="block">

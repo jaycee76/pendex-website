@@ -23,7 +23,7 @@ export default function HeroComponent() {
                             delay={500}
                             triggerOnce={true}
                         >
-                            <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">At Phendex Medical Trading Inc., we are committed to revolutionizing healthcare by providing top-quality medical equipment and solutions to healthcare facilities, practitioners, and individual patients. With years of expertise in the medical industry, we take pride in being a trusted partner for all your medical equipment needs.</p>
+                            <p className="mb-8 text-lg font-normal text-gray-700 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">At Phendex Medical Trading Inc., we are committed to revolutionizing healthcare by providing top-quality medical equipment and solutions to healthcare facilities, practitioners, and individual patients. With years of expertise in the medical industry, we take pride in being a trusted partner for all your medical equipment needs.</p>
                         </Fade>
                         <Fade
                             direction="left"
@@ -31,7 +31,7 @@ export default function HeroComponent() {
                             triggerOnce={true}
                         >
                             <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-                                <a href="#products" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300">
+                                <a href="#products" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-green-800 hover:bg-green-900 focus:ring-4 focus:ring-green-300">
                                     View products
                                 </a>
                                 <a href="#contact" className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-gray-900 rounded-lg border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
@@ -45,7 +45,7 @@ export default function HeroComponent() {
                             triggerOnce={true}
                         >
                             <div className="px-4 py-10 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
-                                <span className="font-semibold text-gray-400 uppercase">GLOBAL PARTNERS</span>
+                                <span className="font-semibold text-gray-600 uppercase">GLOBAL PARTNERS</span>
                                 <div className="flex sm:flex-row flex-col items-center justify-evenly text-gray-500">
                                     <div className="sm:mb-0 mb-4">
                                         <Image

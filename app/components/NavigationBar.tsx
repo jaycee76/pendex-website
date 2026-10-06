@@ -45,7 +45,7 @@ export function NavigationBar() {
                       className={classNames(
                         isActive(item.href)
                           ? "bg-green-900 text-white"
-                          : "text-green-700 hover:bg-green-900/40 hover:text-white",
+                          : "text-green-800 hover:bg-green-900 hover:text-white",
                         "rounded-md px-3 py-2 text-sm font-medium transition-colors duration-200"
                       )}
                       aria-current={isActive(item.href) ? "page" : undefined}
@@ -82,7 +82,7 @@ export function NavigationBar() {
                   className={classNames(
                     isActive(item.href)
                       ? "bg-green-900 text-white"
-                      : "text-green-700 hover:bg-green-900 hover:text-white",
+                      : "text-green-800 hover:bg-green-900 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium transition-colors duration-200"
                   )}
                   aria-current={isActive(item.href) ? "page" : undefined}
