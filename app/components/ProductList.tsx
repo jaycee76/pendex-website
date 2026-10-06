@@ -2,11 +2,11 @@
 
 import { Fade } from "react-awesome-reveal";
 import ProductInfoComponent from "./ProductInfo";
-import type { ProcessedProduct } from "../types/product";
+import type { Product } from "../types/product";
 import { FADE_DELAY } from "../constants";
 
 interface ProductListProps {
-  products: ProcessedProduct[];
+  products: Product[];
 }
 
 /**
@@ -17,17 +17,12 @@ export function ProductList({ products }: ProductListProps) {
     <div className="row-span-1">
       {products.map((product, index) => (
         <Fade 
-          key={product.key}
+          key={product.id}
           direction={index % 2 === 0 ? "left" : "right"} 
           triggerOnce={true} 
           delay={FADE_DELAY}
         >
-          <ProductInfoComponent
-            prodName={product.name}
-            prodDesc={product.description}
-            productDetails={product.details}
-            productImageLink={product.images}
-          />
+          <ProductInfoComponent product={product} />
         </Fade>
       ))}
     </div>

@@ -2,8 +2,9 @@
 
 import { Carousel } from "@material-tailwind/react";
 import Image from "next/image";
+import type { ProductImage } from "../types/product";
 
-export default function CarouselComponent(props: { productImage: any }) {
+export default function CarouselComponent({ images }: { images: ProductImage[] }) {
     return (
         <Carousel
             loop={true}
@@ -23,11 +24,11 @@ export default function CarouselComponent(props: { productImage: any }) {
                 </div>
             )}
         >
-            {props.productImage.map((productImg: any) => (
+            {images.map((productImg) => (
                 <Image
-                    src={productImg.image}
-                    key={productImg.image}
-                    alt="image"
+                    src={productImg.src}
+                    key={productImg.src}
+                    alt={productImg.alt}
                     className="aspect-video h-full w-full"
                     width={600}
                     height={300}
