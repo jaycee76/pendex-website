@@ -1,6 +1,25 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@config '../tailwind.config.js';
+
+/*
+  The default border color changed to `currentcolor` in Tailwind CSS v4.
+  Tailwind v3 defaulted to the theme's gray-200, which with Material Tailwind's
+  `withMT` palette is #eeeeee. `--color-gray-200` is not defined in this
+  @config setup, so use the literal value to keep v3 behaviour.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: #eeeeee;
+  }
+}
 
 :root {
   --foreground-rgb: 255, 255, 255;
