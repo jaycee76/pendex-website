@@ -1,6 +1,6 @@
 {
   "name": "pendex-website",
-  "homepage": "https://www.phendexmedical.net",
+  "homepage": "https://www.phendex-medical.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "@emotion/react": "^11.11.1",
     "@headlessui/react": "^1.7.16",
     "@heroicons/react": "^2.0.18",
-    "@material-tailwind/react": "^2.0.8",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/node": "20.4.5",
     "@types/react": "18.2.17",
