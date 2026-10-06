@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import bosoLogo from "@/public/boso_logo.png"
 import leonhardlogo from "@/public/LeonhardLang_logo.png"

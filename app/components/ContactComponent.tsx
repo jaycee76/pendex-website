@@ -1,3 +1,5 @@
+"use client";
+
 import ContactInformationComponent from "./ContactInformationComponent";
 import { Fade } from "react-awesome-reveal";
 
