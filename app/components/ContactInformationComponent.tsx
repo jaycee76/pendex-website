@@ -11,14 +11,14 @@ const people = [
         name: 'Messenger',
         email: 'Phendex Medical Trading Inc.',
         imageUrl:
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/800px-Facebook_Messenger_logo_2020.svg.png',
+            '/messenger.svg',
         messenger: 'https://www.facebook.com/messages/t/123536911050158',
         messengerLabel: 'Send a message'
     },
     {
         name: 'Facebook Page',
         email: 'Phendex Medical Trading Inc.',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png',
+        imageUrl: '/facebook.svg',
         facebook: 'https://www.facebook.com/profile.php?id=100064192472915',
         facebookLabel: 'Visit Facebook page'
     },
@@ -36,7 +36,7 @@ export default function ContactInformationComponent() {
         <>
             <ul role="list" className="divide-y divide-green-200">
                 {people.map((person) => (
-                    <li key={person.email} className="flex justify-between gap-x-6 py-8">
+                    <li key={person.name} className="flex justify-between gap-x-6 py-8">
                         <div className="flex items-center gap-x-4">
                             <img className="h-12 w-12 flex-none" src={person.imageUrl} alt="" />
                             <div className="min-w-0 flex-auto">
